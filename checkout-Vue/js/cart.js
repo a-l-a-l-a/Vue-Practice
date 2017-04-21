@@ -81,7 +81,7 @@ new Vue({
         delConfirm: function (item) {
             this.delFlag =true;
             this.curProduct = item;
-            //console.log(item);
+            //console.log(item); 看看item是什么
         },
         delProduct: function () {
             var index = this.productList.indexOf(this.curProduct);
